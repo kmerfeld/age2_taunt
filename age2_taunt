@@ -1,0 +1,51 @@
+#!/usr/bin/env perl
+
+# Allows you to not only flame during your age of empires load lobby screen,
+# now it works in real life!
+
+while (<>) {
+	if ($_ == 1) { `espeak "Yes."`; }
+	elsif ($_ == 2) { `espeak "No."`; }
+	elsif ($_ == 3) { `espeak "Food please."`; }
+	elsif ($_ == 4) { `espeak "Wood please."`; }
+	elsif ($_ == 5) { `espeak "Gold please."`; }
+	elsif ($_ == 6) { `espeak "Stone please."`; }
+	elsif ($_ == 7) { `espeak "Ahh!"`; }
+	elsif ($_ == 8) { `espeak "All hail, king of the losers!"`; }
+	elsif ($_ == 9) { `espeak "Ooh!"`; }
+	elsif ($_ == 10) { `espeak "I'll beat you back to Age of Empires."`; }
+	elsif ($_ == 11) { `espeak "(Herb laugh)"`; }
+	elsif ($_ == 12) { `espeak "Ah! being rushed."`; }
+	elsif ($_ == 13) { `espeak "Sure, blame it on your ISP."`; }
+	elsif ($_ == 14) { `espeak "Start the game already!"`; }
+	elsif ($_ == 15) { `espeak "Don't point that thing at me! "`; }
+	elsif ($_ == 16) { `espeak "Enemy sighted! "`; }
+	elsif ($_ == 17) { `espeak "It is good to be the king."`; }
+	elsif ($_ == 18) { `espeak "Monk! I need a monk! "`; }
+	elsif ($_ == 19) { `espeak "Long time, no siege."`; }
+	elsif ($_ == 20) { `espeak "My granny could scrap better than that."`; }
+	elsif ($_ == 21) { `espeak "Nice town, I'll take it."`; }
+	elsif ($_ == 22) { `espeak "Quit touching me! "`; }
+	elsif ($_ == 23) { `espeak "Raiding party! "`; }
+	elsif ($_ == 24) { `espeak "Dadgum."`; }
+	elsif ($_ == 25) { `espeak "Eh, smite me."`; }
+	elsif ($_ == 26) { `espeak "The wonder, the wonder, the... no! "`; }
+	elsif ($_ == 27) { `espeak "You played two hours to die like this? "`; }
+	elsif ($_ == 28) { `espeak "Yeah, well, you should see the other guy."`; }
+	elsif ($_ == 29) { `espeak "Roggan."`; }
+	elsif ($_ == 30) { `espeak "Wo lo lo."`; }
+	elsif ($_ == 31) { `espeak "Attack an enemy now."`; }
+	elsif ($_ == 32) { `espeak "Cease creating extra villagers."`; }
+	elsif ($_ == 33) { `espeak "Create extra villagers."`; }
+	elsif ($_ == 34) { `espeak "Build a navy."`; }
+	elsif ($_ == 35) { `espeak "Stop building a navy."`; }
+	elsif ($_ == 36) { `espeak "Wait for my signal to attack."`; }
+	elsif ($_ == 37) { `espeak "Build a wonder."`; }
+	elsif ($_ == 38) { `espeak "Give me your extra resources."`; }
+	elsif ($_ == 39) { `espeak "(Ally sound)"`; }
+	elsif ($_ == 40) { `espeak "(Enemy sound)"`; }
+	elsif ($_ == 41) { `espeak "(Neutral sound)"`; }
+	elsif ($_ == 42) { `espeak "What age are you in?"`; }
+
+
+}
